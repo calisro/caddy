@@ -623,6 +623,7 @@ var directives = []string{
 	"locale", // github.com/simia-tech/caddy-locale
 	"log",
 	"cache", // github.com/nicolasazrak/caddy-cache
+	"basicauth",
 	"rewrite",
 	"ext",
 	"minify", // github.com/hacdias/caddy-minify
@@ -636,7 +637,6 @@ var directives = []string{
 	"ratelimit",    // github.com/xuqingfeng/caddy-rate-limit
 	"expires",      // github.com/epicagency/caddy-expires
 	"forwardproxy", // github.com/caddyserver/forwardproxy
-	"basicauth",
 	"redir",
 	"status",
 	"cors",      // github.com/captncraig/cors/caddy
